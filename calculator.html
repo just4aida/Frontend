@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calendar</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Golos+Text&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Golos", sans-serif;
+      }
+      .calendar {width: 300px;
+    }
+
+    .calendar__header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .calendar__items {display: flex;
+    list-style: none;
+flex-wrap: wrap;}
+.calendar__item {
+    width: calc(100% / 7);
+    aspect-ratio: 1;
+}
+    </style>
+  </head>
+  <body>
+    <div class="calendar">
+      <div class="calendar__header">
+<div class="calendar__nav">
+    <button class="calendar__button">
+        <i class="las la-angle-double-left"></i>
+    </button>
+    <button class="calendar__button">
+        <i class="las la-angle-left"></i>
+    </button>
+   
+</div>
+<h3 class="calendar__title"> February 2023
+
+</h3>
+<div class="calendar__nav">
+    <button class="calendar__button">
+        <i class="las la-angle-double-right"></i>
+    </button>
+    <button class="calendar__button">
+        <i class="las la-angle-right"></i>
+    </button>
+</div>
+      </div>
+<ul class="calendar__items">
+<li class="calindar__item">Mo</li>
+<li class="calendar__item">Tu</li>
+<li class="calendar__item">We</li>
+<li class="calendar__item">Th</li>
+<li class="calendar__item">Fr</li>
+<li class="calendar__item">Sa</li>
+<li class="calendar__item">Su</li>
+<li class="calendar__item">00</li>
+<li class="calendar__item">00</li>
+<li class="calendar__item">00</li>
+<li class="calendar__item">00</li>
+<li class="calendar__item">00</li>
+<li class="calendar__item">00</li>
+<li class="calendar__item">00</li>
+
+    
+</ul>
+<div class="calendar__actions">
+    <button class="calendar__action">
+       Cancel
+    </button>
+    <button class="calendar__action">
+        Apply
+    </button>
+</div>
+    </div>
+  </body>
+</html>
