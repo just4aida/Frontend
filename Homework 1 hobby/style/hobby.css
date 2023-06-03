@@ -1,0 +1,28 @@
+h1 {background-color: lightyellow; text-align: center; margin: 0 auto; width: 90%;}
+.main { margin: 0 auto;
+width: 90%;}
+.picture {width: 300px;}
+h2 {background-color: lavender;}
+p {text-align: justify; font-weight: bold; font-style: italic; text-indent: 1cm; margin: 0.5cm 0.5cm}
+.hobby {background-color: rgba(222, 135, 147, 0.582);
+    border: 3px solid brown;
+margin: 90 auto;}
+.work {background-color: rgba(135, 206, 250, 0.404);
+    border: 3px solid darkblue;
+    margin: 90% auto }
+.family{ background-color: burlywood;
+    border: 3px solid brown;
+    margin: 90 auto;}
+    .icon {width: 40px;
+    }
+    .hobby {margin: 0.3cm;
+    align-content: center;}
+    .work {margin: 0.3cm;
+        align-content: center;}
+    .logo {margin: 0.3cm;
+      }
+     .logo { display: flex;
+        justify-content: center;
+    align-items: center;
+}
+.icon {margin: 10px;}
