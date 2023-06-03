@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .right {
+        position: absolute;
+        left: 50%;
+      }
+
+      .left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 100%;
+      }
+
+      h1 {
+        font-weight: 300;
+        font-size: 40px;
+      }
+
+      button {
+        font-size: 20px;
+        background: blue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="left"></div>
+
+    <div class="right">
+      <h1>Login</h1>
+
+      <h2>Please enter your credentials</h2>
+
+      <form>
+        <p>
+          <input type="text" placeholder="Your login" />
+        </p>
+
+        <p>
+          <input type="password" placeholder="Your password" />
+        </p>
+
+        <p>
+          <button>Login</button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
